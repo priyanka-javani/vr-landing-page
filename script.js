@@ -1,9 +1,9 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+// const menuToggle = document.querySelector(".menu-toggle");
+// const navLinks = document.querySelector(".nav-links");
 
-menuToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
+// menuToggle.addEventListener("click", () => {
+//   navLinks.classList.toggle("active");
+// });
 
 
 // Smooth scroll for internal links
@@ -26,17 +26,17 @@ if (form) {
   });
 }
 
-// Toggle mobile menu
 // Dark mode toggle
-// const toggle = document.getElementById("darkToggle");
-// const modeLabel = document.getElementById("modeLabel");
+const toggle = document.getElementById("darkToggle");
+const modeLabel = document.getElementById("modeLabel");
 
-// toggle.addEventListener("change", () => {
-//   const isDark = toggle.checked;
-//   document.body.classList.toggle("dark-mode", isDark);
-//   modeLabel.textContent = isDark ? "Dark Mode" : "Light Mode";
-// });
+toggle.addEventListener("change", () => {
+  const isDark = toggle.checked;
+  document.body.classList.toggle("dark-mode", isDark);
+  modeLabel.textContent = isDark ? "Dark Mode" : "Light Mode";
+});
 
+// Mobile menu toggle
 const hamburger = document.getElementById("hamburger");
 const mobileMenu = document.getElementById("mobileMenu");
 const closeBtn = document.getElementById("closeBtn");
