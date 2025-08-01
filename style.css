@@ -28,7 +28,7 @@ body {
 .nav-right {
   display: flex;
   align-items: center;
-  gap: 30px; /* space between nav links and toggle */
+  gap: 20px; /* space between nav links and toggle */
 }
 
 .navbar .logo {
