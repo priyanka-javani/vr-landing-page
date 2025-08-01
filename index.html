@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!----- Navbar ----->
+  <nav class="navbar">
+    <div class="logo">GalaxyVR</div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="dark-mode-toggle">
+      <label class="switch">
+        <input type="checkbox" id="darkToggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </nav>
+
+  <!----- Hero Section ----->
+  <header class="hero" id="hero">
+    <div class="hero-bg-blur">
+      <img src="images/hero-bg.png" alt="hero background" />
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Galaxy VR Headset</h1>
+        <p>Step into the future. Experience virtual reality like never before.</p>
+        <a href="#features" class="btn">Explore Now &rarr;</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/vr-headset.png" alt="VR Headset" />
+      </div>
+    </div>
+  </header>
+
+  <!----- Features Section ----->
+  <section class="features" id="features">
+    <div class="features-bg-blur">
+      <img src="images/hero-bg.png" alt="hero background" />
+    </div>
+    <h2 class="section-title">Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="icon-wrapper">
+          <img src="images/features1.png" alt="Immersive Experience" />
+        </div>
+        <h3>Immersive Experience</h3>
+        <p>Enjoy seamless and lifelike visuals with our top-tier VR rendering engine.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-wrapper">
+          <img src="images/features2.png" alt="Ergonomic Design" />
+        </div>
+        <h3>Ergonomic Design</h3>
+        <p>Comfortable, lightweight, and built for long sessions without strain.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-wrapper">
+          <img src="images/features3.png" alt="Wireless Freedom" />
+        </div>
+        <h3>Wireless Freedom</h3>
+        <p>Say goodbye to cables with stable, fast wireless connectivity.</p>
+      </div>
+    </div>
+  </section>
+  <!----- Gallery Section ----->
+  <section class="gallery" id="gallery">
+    <div class="gallery-bg-blur">
+      <img src="images/hero-bg.png" alt="hero background" />
+    </div>
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/vr-device.jpg" alt="Device" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/vr-person.jpg" alt="User enjoying VR" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/vr-playing.jpg" alt="User playing an action VR game with headse" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/vr-world.jpg" alt="360 degree view" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/vr-education.jpg" alt="VR with Education" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/vr-groupby.jpg" alt="VR adventure" />
+      </div>
+    </div>
+  </section>
+
+  <!----- Contact Section ----->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="contact-description">
+      Interested in GalaxyVR? Have a question? Drop us a message!
+    </p>
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+
+  <!----- Footer ----->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Priyanka Javani. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Priyanka-Javani" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/priyankajavani/" target="_blank">linkedIn</a>
+        <a href="#hero">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
