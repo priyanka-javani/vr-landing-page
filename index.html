@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark">
+
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="style.css" />
   <!-- Google Fonts -->
@@ -19,14 +21,29 @@
       <li><a href="#gallery">Gallery</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <!-- Hamburger Icon -->
+<div class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</div>
+
+<!-- Slide-in Sidebar Menu -->
+<div class="mobile-menu" id="mobileMenu">
+<div class="close-btn" id="closeBtn" aria-label="Close menu">&times;</div>
+  <ul class="mobile-nav-links">
+    <li><a href="#features">Features</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
     <div class="dark-mode-toggle">
+        <label class="mode-label" id="modeLabel">Light Mode</label>
       <label class="switch">
         <input type="checkbox" id="darkToggle">
         <span class="slider round"></span>
+        Mode
       </label>
     </div>
+    <!-- <div class="menu-toggle">&#9776;</div> -->
   </nav>
-
+<main>
   <!----- Hero Section ----->
   <header class="hero" id="hero">
     <div class="hero-bg-blur">
@@ -121,7 +138,7 @@
       <button type="submit" class="btn">Send Message</button>
     </form>
   </section>
-
+</main>
 
   <!----- Footer ----->
   <footer class="footer">
