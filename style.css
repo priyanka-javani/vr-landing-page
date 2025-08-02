@@ -28,11 +28,14 @@ body {
 
 .nav-right {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   align-items: center;
   justify-content: flex-end;
-  gap: 10px; /* space between nav links and toggle */
-  margin-top: 10px;
+  /* gap: 10px; */
+   /* space between nav links and toggle */
+  /* margin-top: 10px; */
+  padding: 20px 6%;
+  flex-wrap: nowrap; /* prevents wrap if not necessary */
 }
 
 .navbar .logo {
